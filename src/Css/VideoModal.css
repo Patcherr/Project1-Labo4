@@ -1,0 +1,17 @@
+.react-modal-overlay {
+  background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-modal-content {
+  background: transparent; /* Elimina el fondo blanco */
+  border: none;
+  padding: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}   
