@@ -32,7 +32,7 @@ const App = () => {
   };
 
   const handleDeleteSong = (songToDelete) => {
-    const updatedSongs = songs.filter((song) => song.url !== songToDelete.url);
+    const updatedSongs = songs.filter((s) => s.url.trim() !== songToDelete.url.trim());
     setSongs(updatedSongs);
     localStorage.setItem("songs", JSON.stringify(updatedSongs));
   };
